@@ -5,7 +5,7 @@ http.createServer(function(req, res) {
     res.writeHead(200, {
         'Content - Type': 'text/html'
     });
-    res.write('Brasil 2x0 Servia')
+    res.write('Brasil 2x0 Suiça')
     res.write(Date().substring(16, 24) + '>br>');
     res.write('<p style-color:green>' + Date().substring(16, 24) + '>br>');
     res.write(dia.diaDaSemana() + '</p><br>')
